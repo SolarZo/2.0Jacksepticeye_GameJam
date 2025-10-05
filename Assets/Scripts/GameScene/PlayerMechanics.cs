@@ -26,7 +26,7 @@ public class PlayerMechanics : MonoBehaviour
     public bool isSprinting = false;
 
     public Vector3 lastDirection = new Vector3(1f, 0, 0);
-    bool onGround = true;
+    public bool onGround = true;
 
     private void Start()
     {
@@ -67,7 +67,7 @@ public class PlayerMechanics : MonoBehaviour
         if (isSprinting)
         {
             speedMultiplier = 10f;
-            maxSpeed = 6.3f;
+            maxSpeed = 5f;
         }
         else
         {
@@ -100,6 +100,7 @@ public class PlayerMechanics : MonoBehaviour
             else
                 rb.AddForce((move + new Vector3(0, .25f, 0)) * speedMultiplier);
         }
+        
         //Debug.Log("player on ground: " + onGround);
     }
 

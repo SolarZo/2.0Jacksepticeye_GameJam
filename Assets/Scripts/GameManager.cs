@@ -96,8 +96,12 @@ public class GameManager : MonoBehaviour
             case 2:
                 SceneManager.LoadScene("Level 2");
                 break;
+            case 3:
+                SceneManager.LoadScene("Level 3");
+                break;
             default:
                 SceneManager.LoadScene("CreditsScreen");
+                leveltracker = 0;
                 break;
         }
     }
