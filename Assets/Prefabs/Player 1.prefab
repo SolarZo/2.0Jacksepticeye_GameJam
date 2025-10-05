@@ -289,7 +289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMechanics
   playerControls: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   move: {x: 0, y: 0, z: 0}
-  RespawnAnchor: {fileID: 6936180241677421278, guid: 66d0c032adba7844a861634318b749fd, type: 3}
+  RespawnAnchor: {fileID: 8951174148337679060, guid: 4d01769f2cb0bfb48b09cc3e3e32a8db, type: 3}
   spawnPoint: {fileID: 0}
   speedMultiplier: 5
   maxSpeed: 3
@@ -298,7 +298,9 @@ MonoBehaviour:
   jumpForce: 5
   onWall: 0
   onSlope: 0
+  isSprinting: 0
   lastDirection: {x: 1, y: 0, z: 0}
+  onGround: 1
 --- !u!114 &8250277122257050429
 MonoBehaviour:
   m_ObjectHideFlags: 0
