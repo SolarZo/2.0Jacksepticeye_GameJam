@@ -8,9 +8,9 @@ public class StartButton : MonoBehaviour
     public void StartGame()
     {
         //Production VVVVV
-        //SceneManager.LoadScene("SampleScene");
+        GameManager.Instance.NextLevel();
         //Testing VVVVV
-        SceneManager.LoadScene("TestScene");
+        //SceneManager.LoadScene("TestScene");
     }
 
 }

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4424080109118403418}
   m_Layer: 0
   m_Name: TestingCamera
-  m_TagString: MainCamera
+  m_TagString: CinemaCam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
