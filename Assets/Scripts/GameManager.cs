@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
     public GameObject PlayerPrefab;
     public GameObject NextPlayer;
-    int leveltracker = 1;//0;
+    int leveltracker = 0;
 
     private void Awake()
     {
